@@ -1,0 +1,16 @@
+{
+  "name": "@vercel/node-bridge",
+  "version": "3.1.10",
+  "license": "MIT",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vercel/vercel.git",
+    "directory": "packages/node-bridge"
+  },
+  "scripts": {
+    "build": "node build.js",
+    "test": "echo testing units beep boop",
+    "test-unit": "pnpm test"
+  }
+}

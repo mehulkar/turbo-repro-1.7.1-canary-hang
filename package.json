@@ -1,0 +1,13 @@
+{
+  "name": "turbo-repro-1.7-canary-hang",
+  "version": "0.0.0",
+  "packageManager": "pnpm@7.24.2",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "turbo": "1.7.1-canary.6"
+  },
+  "scripts": {
+    "build": "node utils/gen.js && turbo run build"
+  }
+}
